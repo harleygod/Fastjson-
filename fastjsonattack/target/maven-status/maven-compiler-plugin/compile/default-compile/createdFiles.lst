@@ -1,0 +1,8 @@
+com\govuln\fastjsonattack\EvilDataSource.class
+com\govuln\fastjsonattack\FastJSONCommonsCollections.class
+com\govuln\fastjsonattack\Client0.class
+com\govuln\fastjsonattack\Client.class
+com\govuln\fastjsonattack\FastJSONTemplatesImplFixed.class
+com\govuln\fastjsonattack\FastJSONJdbcRowSetImpl.class
+com\govuln\fastjsonattack\Evil.class
+com\govuln\fastjsonattack\FastJSONTemplatesImpl.class
